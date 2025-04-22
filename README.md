@@ -128,6 +128,8 @@ Available datatypes are: `string`, `bool`, `int`, `object`, `array` and `custom 
 ```bicep
 @secure()
 param parSecureParameter string
+
+note - https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameters
 ```
 
 ### Declare an output
