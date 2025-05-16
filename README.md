@@ -87,7 +87,7 @@ resource resVnet 'Microsoft.Network/virtualNetworks@2022-01-01' = {
 ### Reference to an existing resource
 
 ```bicep
-resource resKeyVaultRef 'Microsoft.KeyVault/vaults@2019-09-01' = existing {
+resource resKeyVaultRef 'Microsoft.KeyVault/vaults@2019-09-01' existing = {
   name: 'myExistingKeyVaultName'
 }
 ```
